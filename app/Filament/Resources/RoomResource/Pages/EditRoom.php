@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Auth;
 class EditRoom extends EditRecord
 {
     protected static string $resource = RoomResource::class;
-    protected static ?string $title = 'Edit Ruang Kolaborasi';
+    protected static ?string $title = 'Ruang Kolaborasi';
 
 
     protected function canEdit(): bool
